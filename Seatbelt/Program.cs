@@ -6,6 +6,7 @@ namespace Seatbelt
     {
         private static void Main(string[] args)
         {
+            Console.WriteLine($"Test");
             try
             {
                 using var sb = (new Seatbelt(args));
