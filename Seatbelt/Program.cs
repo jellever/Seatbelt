@@ -7,6 +7,7 @@ namespace Seatbelt
         private static void Main(string[] args)
         {
             Console.WriteLine($"Test");
+            Console.WriteLine($"Remote change");
             try
             {
                 using var sb = (new Seatbelt(args));
