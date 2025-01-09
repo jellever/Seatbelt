@@ -15,6 +15,7 @@ namespace Seatbelt
             {
                 Console.WriteLine($"Unhandled terminating exception: {e}");
             }
+            Console.WriteLine($"Test");
         }
     }
 }
