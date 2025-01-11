@@ -6,7 +6,7 @@ namespace Seatbelt
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine($"remote change");
+            //Console.WriteLine($"remote change");
             try
             {
                 using var sb = (new Seatbelt(args));
@@ -16,7 +16,7 @@ namespace Seatbelt
             {
                 Console.WriteLine($"Unhandled terminating exception: {e}");
             }
-            Console.WriteLine($"Test");
+            //Console.WriteLine($"Test");
         }
     }
 }
